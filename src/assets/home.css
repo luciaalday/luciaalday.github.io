@@ -75,7 +75,6 @@ a:hover {
 .item:nth-child(3) { animation-delay: 1.2s; }
 
 iframe {
-	-webkit-overflow-scrolling: touch;
   overflow-y: scroll;
 }
 
