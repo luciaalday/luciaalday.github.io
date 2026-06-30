@@ -61,6 +61,7 @@ export default function DevProjects() {
         </section>
       </article>
       <article>
+        <div style={{textAlign:'center', margin:'auto'}}>
           <h1>Legal Code Editor</h1>
           <h2>Using Slate.js, React, Firebase Authentication, Realtime Database, and Cloud Functions</h2>
           <p>
@@ -70,6 +71,7 @@ export default function DevProjects() {
             <FaGithub />
             Check out the Github repository <a href='https://github.com/luciaalday/update-legal-fines'>here</a>
           </p>
+        </div>
       </article>
       <article>
         <section>

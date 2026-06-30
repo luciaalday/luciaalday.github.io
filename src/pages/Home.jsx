@@ -8,8 +8,6 @@ export default function Home() {
         <section className="left">
           <h1 style={{fontSize:'clamp(3rem, 15vw, 8rem)', marginBottom:'0'}}>Lucia Alday</h1>
           <p>Software Engineer | React • Node.js • C/C++ • Embedded Systems </p>
-          <p>I build full-stack web applications and embedded systems with a focus on performance, data flow, and real-world usability.
-            Experience in production web platforms, municipal systems, and ML-driven applications.</p>
         </section>
         <section className="right">
           <Link to="/Developer"><h2 className="item">Full-stack Projects</h2></Link>
@@ -20,20 +18,34 @@ export default function Home() {
       </article>
         <hr></hr>
       <article>
-        <h2>About Me</h2>
-      </article>
-      <article>
-        <p>
-        Languages: C/C++, Python, JavaScript, Java, SQL
-        Frameworks: React, Node.js, Express
-        Technologies: REST APIs, Firebase, SQLite, Machine Learning (scikit-learn)
-        Tools: Git, Linux, JUnit
-
-        Focus Areas:
-        • Full-stack web systems
-        • Embedded systems & low-level programming
-        • API design and data flow  
-        </p>
+        <div style={{textAlign:'left', margin:'auto', width: '90%'}}>
+          <h2 style={{textAlign:'center'}}>About Me</h2>
+          <p>
+            I build full-stack web applications and embedded systems with a focus on performance, data flow, and real-world usability. Experience in production web platforms, municipal systems, and ML-driven applications.
+          </p>
+          <p>
+            Languages: C/C++, Python, JavaScript, Java, SQL
+            
+          </p>
+          <p>
+            Frameworks: React, Node.js, Express
+          </p>
+          <p>
+            Technologies: REST APIs, Firebase, SQLite, Machine Learning (scikit-learn)
+          </p>
+          <p>
+            Tools: Git, Linux, JUnit
+          </p>
+          <h2 style={{textAlign:'center'}}>
+            Focus Areas
+          </h2>
+          <p style={{textAlign:'center'}}>
+            • Full-stack web systems
+            • Embedded systems & low-level programming
+            • API design and data flow
+            •
+          </p>
+        </div>
       </article>
     </main>
   );
